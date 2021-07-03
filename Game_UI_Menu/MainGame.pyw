@@ -1,7 +1,7 @@
 ################################################################################
 ##
 ## LOADING SCREEN BY: WANDERSON M.PIMENTA
-## LAYOUT AND DESIGN MADE BY: Sapphire code
+## LAYOUT AND DESIGN MADE BY: SapphireKR
 ## PROJECT MADE WITH: Qt Designer and PySide2
 ## V: 1.0.0
 ##

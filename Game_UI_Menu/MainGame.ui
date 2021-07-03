@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mainWindow</class>
+ <widget class="QMainWindow" name="mainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Your VideoGame</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+background-image: url(:/newPrefix/imgb.jpg);
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="AboutBtn">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>310</y>
+      <width>231</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Cascadia Mono</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: #32d4e3;
+	background-image: url(:/newPrefix/imga.jpg);
+	border-radius: 10px;
+	font-size: 30px !important; 
+}
+QPushButton:hover{
+	background-color: #3241e3;
+	border-radius: 10px;
+	color: white !important;
+}</string>
+    </property>
+    <property name="text">
+     <string>About</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="quitBtn">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>480</y>
+      <width>231</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Cascadia Mono</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: #32d4e3;
+	background-image: url(:/newPrefix/imga.jpg);
+	border-radius: 10px;
+	font-size: 30px !important; 
+}
+QPushButton:hover{
+	background-color: #3241e3;
+	border-radius: 10px;
+	color: white !important;
+}</string>
+    </property>
+    <property name="text">
+     <string>Quit</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="settingsBtn">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>200</y>
+      <width>231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Cascadia Code</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: #32d4e3;
+	background-image: url(:/newPrefix/imga.jpg);
+	border-radius: 10px;
+	font-size: 30px !important; 
+}
+QPushButton:hover{
+	background-color: #3241e3;
+	border-radius: 10px;
+	color: white !important;
+}</string>
+    </property>
+    <property name="text">
+     <string>Settings</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="PlayBtn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>200</y>
+      <width>231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Cascadia Code</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: #32d4e3;
+	background-image: url(:/newPrefix/imga.jpg);
+	border-radius: 10px;
+	font-size: 30px !important; 
+}
+QPushButton:hover{
+	background-color: #3241e3;
+	border-radius: 10px;
+	color: white !important;
+}</string>
+    </property>
+    <property name="text">
+     <string>Play</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>550</y>
+      <width>161</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Layout Made By: Sapphire code</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="ima.qrc"/>
+  <include location="iag.qrc"/>
+ </resources>
+ <connections/>
+</ui>

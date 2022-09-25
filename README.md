@@ -6,5 +6,6 @@ how the start menu looks like:
 
 #### The loading startup screen is made by WANDERSON M. PIMENTA, here are his links:
 [His Youtube Channel](https://www.youtube.com/c/WandersonIsMe)
+<br>
 [The video he made this splash-screen](https://www.youtube.com/watch?v=Ap865V3sAdw)
 
